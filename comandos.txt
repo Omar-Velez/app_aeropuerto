@@ -1,0 +1,11 @@
+﻿# Creacion de entorno virtual
+py -m venv .venv
+
+# Permisos de ejecutar en terminal
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+# Activar entorno virtual
+.\.venv\Scripts\activate
+
+# instalar librerias
+pip install pyodbc pandas python-dotenv streamlit xlsxwriter
